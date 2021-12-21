@@ -2,4 +2,4 @@
   become: yes
   yum:
     name: "{{ package_name }}"
-    state: "{{ package_state }}"
+    state: restarted
