@@ -2,7 +2,3 @@
 - hosts: dev
   roles:
     - role: web-server
-
-- hosts: prod
-  roles:
-    - role: web-server
