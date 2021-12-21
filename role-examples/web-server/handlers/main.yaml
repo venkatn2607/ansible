@@ -2,4 +2,4 @@
   become: yes
   service:
     name: httpd
-    state: restarted 
+    state: restarted

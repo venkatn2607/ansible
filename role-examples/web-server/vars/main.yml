@@ -1,2 +1,2 @@
 package_name: httpd
-port: 82
+port: 80
