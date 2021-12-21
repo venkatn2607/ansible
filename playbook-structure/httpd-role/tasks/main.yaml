@@ -1,5 +1,0 @@
----
-- include playbooks/copyindex.yaml
-- include playbooks/copyhttpd.yaml
-- include playbooks/installhttpd.yaml
-- include playbooks/restarthttpd.yaml

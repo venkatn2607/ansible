@@ -1,4 +1,0 @@
----
-- hosts: dev
-  roles:
-    - role: httpd-role
