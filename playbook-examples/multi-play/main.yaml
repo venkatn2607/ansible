@@ -1,0 +1,39 @@
+---
+- hosts: dev
+  tasks:
+  - name: This task to instal webserver
+    yum:
+     name: httpd
+     state: latest
+  - name: start webserver service
+    become: yes
+    service:
+     name: httpd
+     state: started
+  - name: copy index.html to target
+    become: yes
+    copy:
+     src: index.html
+     dest: /var/www/html
+
+- hosts: prod
+  tasks:
+  - name: This task to instal webserver
+    yum:
+     name: httpd
+     state: latest
+  - name: start webserver service
+    service:
+     name: httpd
+     state: started
+  - name: copy index.html to target
+    become: yes
+    copy:
+     src: index.html
+     dest: /var/www/html
+    
+
+    
+
+    
+    
