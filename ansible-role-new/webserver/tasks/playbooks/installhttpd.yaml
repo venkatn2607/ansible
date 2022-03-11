@@ -1,5 +1,0 @@
-- name: httpd server install
-  become: yes
-  yum:
-    name: httpd
-    state: present
