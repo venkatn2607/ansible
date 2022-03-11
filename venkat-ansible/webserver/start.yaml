@@ -1,0 +1,4 @@
+---
+- hoste: UAT
+  roles:
+    - webserver
