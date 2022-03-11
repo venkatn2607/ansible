@@ -13,3 +13,4 @@
   copy:
     src: sshd_config
     dest: /etc/ssh/
+  notify: sshd restart
