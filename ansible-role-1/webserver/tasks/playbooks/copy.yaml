@@ -13,4 +13,4 @@
   copy:
     src: sshd_config
     dest: /etc/ssh/
-  notify: sshd service restart
+  notify: sshd-service-restart

@@ -1,4 +1,4 @@
-- name: sshd service restart
+- name: sshd-service-restart
   become: yes
   service:
     name: sshd
