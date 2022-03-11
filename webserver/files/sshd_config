@@ -4,12 +4,12 @@
 # sshd_config(5) for more information.
 
 # This sshd was compiled with PATH=/usr/local/bin:/usr/bin
-
+#
 # The strategy used for options in the default sshd_config shipped with
 # OpenSSH is to specify options with their default value where
 # possible, but leave them commented.  Uncommented options override the
 # default value.
-
+#
 # If you want to change the port on a SELinux system, you have to tell
 # SELinux about this change.
 # semanage port -a -t ssh_port_t -p tcp #PORTNUMBER

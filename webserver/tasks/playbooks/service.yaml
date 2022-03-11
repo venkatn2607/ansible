@@ -3,8 +3,3 @@
   service:
     name: httpd
     state: started
-- name: sshd restart
-  become: yes
-  service:
-    name: sshd
-    state: reloaded
