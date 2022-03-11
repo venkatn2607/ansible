@@ -1,17 +1,15 @@
 - name: copy index.html
   become: yes
-    copy:
-      src: index.html
-      dest: /var/www/html
-
+  copy:
+    src: index.html
+    dest: /var/www/html
 - name: copy httpd.conf
   become: yes
-    copy:
-      src: httpd.conf
-      dest: /etc/httpd/conf
-
+  copy:
+    src: httpd.conf
+    dest: /etc/httpd/conf
 - name: copy sshd config
   become: yes
-    copy:
-      src: sshd_config
-      dest: /etc/ssh/
+  copy:
+    src: sshd_config
+    dest: /etc/ssh/
